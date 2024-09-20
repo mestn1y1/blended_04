@@ -17,6 +17,8 @@ export const Form = () => {
     };
 
     dispatch(addTodo(todo));
+
+    evt.target.reset();
   };
 
   return (
